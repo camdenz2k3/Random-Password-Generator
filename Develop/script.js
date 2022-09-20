@@ -111,5 +111,17 @@ function generatePassword() {
         userChoices = special;
         console.log(userChoices);
       };
+      // variable needed for loop, purpose of the password length
+      var passwordBlank = [];
+
+      for (var i = 0; i < passwordLength; i++) {
+        var allChoices = userChoices[Math.floor(Math.random() * userChoices.length)];
+        passwordBlank.push(allChoices);
+        console.log(allChoices);
+      }
+      // generated password is presented
+      var password = passwordBlank.join("");
+      console.log("Your Pasword is: " + password);
+      return password;
 
     }
