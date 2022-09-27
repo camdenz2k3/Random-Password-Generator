@@ -6,4 +6,4 @@ The password can be between 8 and 128 characters long
 This is a very useful tool if you need unique passwords for many things
 just copy and paste and save
 ![password gen web ss](https://user-images.githubusercontent.com/111203105/191165248-eb6a6cbf-aafc-430f-a4bd-48da77e6eb75.png)
-[https://camdenz2k3.github.io/Random-Password-Generator/](https://camdenz2k3.github.io/Random-Password-Generator/)
+
